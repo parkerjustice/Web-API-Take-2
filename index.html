@@ -32,7 +32,33 @@
             <button class="btn">Choice Three</button>
             <button class="btn">Choice Four</button>
         </div>
-        <h2 id="ans-check"
+        <h2 id="ans-check" class="right-wrong hide"></h2>
+        <div class="control">
+            <button id="next-btn" class="next-btn hide">Next</button>
+        </div>
     </section>
+
+    <section id="score-section" class="hide">
+        <form id="submit">
+            <h2 id="personalscore"></h2>
+            <label id="initials">Your Initials</label>
+            <input type="text" id="initial-spot" placeholder="Your Initials" />
+            <button id="submitbtn">Submit</button>
+        </form>
+    </section>
+
+    <section id="highscores" class="highscore-section hide">
+        <div id="highestscore">
+            <h2 class="centered">Records</h2>
+            <div id="hs" class="hsls">
+            </div>
+            <div class="controls">
+                <button id="restartbtn">Restart Game</button>
+                <button id="clear">Clear Scores</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/script.js"></script>
 </body>
 </html>
