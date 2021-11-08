@@ -98,3 +98,19 @@ button:hover {
     justify-content: center;
     margin: 10px 0;
 }
+
+input[type="text"] {
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid sandybrown;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.hs {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
